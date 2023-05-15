@@ -1,0 +1,30 @@
+﻿body {
+}
+.menubar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+    .menubar ul {
+        list-style: none;
+        display: flex;
+    }
+
+        .menubar ul li {
+            padding: 30px 30px;
+        }
+
+            .menubar ul li a {
+                color: rgb(33, 122, 93);
+                text-decoration: none;
+                font-size: 25px;
+                transition: all 0.3s;
+            }
+
+                .menubar ul li a :hover {
+                    color: blue;
+                }
