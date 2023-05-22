@@ -1,0 +1,37 @@
+﻿@model IEnumerable<WebApplicationTask1.Models.Articles>
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>title</td>
+            <td>desc</td>
+            <td>exce</td>
+            <td>pub</td>
+            <td>author</td>
+            <td>time read</td>
+            <td>category</td>
+            <td>id</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var articles in Model)
+        {
+            <tr>
+                <td>@articles.title</td>
+                <td>@articles.description</td>
+                <td>@articles.excerpt</td>
+                <td>@articles.publish_date</td>
+                <td>@articles.author</td>
+                <td>@articles.timeread</td>
+                <td>@articles.category</td>
+                <td>@articles.id</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

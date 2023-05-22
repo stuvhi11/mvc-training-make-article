@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebApplicationTask1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.dataTables.min.css"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\img\\lf.jpg",
       "PackagePath": "staticwebassets\\img\\lf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
     },
     {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\js\\site.js",

@@ -15,7 +15,11 @@
 
     <article itemscope itemtype="http://schema.org/Article">
         <h1 itemprop="headline">How to Create Perfect Eyebrows: A Step-by-Step Tutorial</h1>
+        <center>
+
         <img itemprop="image" src="~/img/5 langkah koreksi bentuk alis agar terlihat ideal _ dinarafi.jpg" width="50%">
+        </center>
+        <br />
         <span itemprop="author">Tere Liye</span>
         <p itemprop="description">
             If you're looking to create perfect eyebrows, there are a few key steps to follow. Here's a step-by-step guide to help you achieve the look you're after.
@@ -51,38 +55,7 @@
         <!-- Konten artikel -->
     </article>
 
-
-    <table class="table table-bordered table-hover">
-        <thead>
-            <tr>
-                <td>title</td>
-                <td>desc</td>
-                <td>exce</td>
-                <td>pub</td>
-                <td>author</td>
-                <td>time read</td>
-                <td>category</td>
-                <td>id</td>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var articles in Model)
-            {
-                <tr>
-                    <td>@articles.title</td>
-                    <td>@articles.description</td>
-                    <td>@articles.excerpt</td>
-                    <td>@articles.publish_date</td>
-                    <td>@articles.author</td>
-                    <td>@articles.timeread</td>
-                    <td>@articles.category</td>
-                    <td>@articles.id</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-
-
+    
+   
     </body>
 </html>

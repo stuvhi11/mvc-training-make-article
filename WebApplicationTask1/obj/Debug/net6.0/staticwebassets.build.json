@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ujMnJeFh/TqN1O6B3/VxfEaRNCFhcSbtYV+Da4PQ/ww=",
+  "Hash": "Fh01J92qAbv1wvZT9/TIYA17rZfY1NyqcltEFqPdUmw=",
   "Source": "WebApplicationTask1",
   "BasePath": "_content/WebApplicationTask1",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationTask1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\css\\jquery.dataTables.min.css",
+      "SourceId": "WebApplicationTask1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTask1",
+      "RelativePath": "css/jquery.dataTables.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jquery.dataTables.min.css"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\css\\site.css",
@@ -253,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\lf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\js\\jquery.dataTables.min.js",
+      "SourceId": "WebApplicationTask1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTask1",
+      "RelativePath": "js/jquery.dataTables.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.dataTables.min.js"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\mvc-training-make-article\\WebApplicationTask1\\wwwroot\\js\\site.js",

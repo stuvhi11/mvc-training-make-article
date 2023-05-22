@@ -8,6 +8,8 @@ namespace WebApplicationTask1.Controllers
         private readonly ILogger<ArticleController> _logger;
         //create dbContext variable
         private readonly MyDbContext _context;
+       
+
 
         public ArticleController(ILogger<ArticleController> logger, MyDbContext dbContext)
         {
@@ -19,6 +21,11 @@ namespace WebApplicationTask1.Controllers
         {
             var articles = _context.Articles.ToList();
             return View(articles);
+        }
+
+        public IActionResult Create()
+        {
+        return View();
         }
     }
 }
