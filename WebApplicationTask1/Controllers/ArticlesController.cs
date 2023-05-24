@@ -13,9 +13,12 @@ namespace WebApplicationTask1.Controllers
     {
         private readonly MyDbContext _context;
 
-        public ArticlesController(MyDbContext context)
+        private readonly IWebHostEnvironment _hostingEnvirontment;
+
+        public ArticlesController(MyDbContext context, IWebHostEnvironment hostingEnvirontment)
         {
             _context = context;
+            _hostingEnvirontment = hostingEnvirontment;
         }
 
         // GET: Articles
@@ -55,8 +58,20 @@ namespace WebApplicationTask1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("title,description,excerpt,publish_date,author,timeread,category,id")] Articles articles)
+        public async Task<IActionResult> Create([Bind("title,description,excerpt,publish_date,author,timeread,category,id")] Articles articles, IFormFile? featured_img)
         {
+            if (featured_img != null)
+            {
+                string nameFile = featured_img.FileName; 
+                string folderPath = Path.Combine(_hostingEnvirontment.WebRootPath, "img");
+                string filePath = Path.Combine(folderPath, nameFile);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await featured_img.CopyToAsync(stream);
+                }
+
+                articles.featured_img = nameFile;
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(articles);
